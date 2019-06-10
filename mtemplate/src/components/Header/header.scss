@@ -1,0 +1,42 @@
+.header{
+    background: #343434;
+    a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .logo{
+        float: left;
+        margin-left: 40px;
+        img{
+            max-width: 36px;
+            margin-top: 6px;
+        }
+    }
+    .header-menu{
+        display: flex;
+        padding: 0;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    .MuiMenuItem-root{
+        color: #ffffff;
+        a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+    .MuiButton-root{
+        color: #ffffff;
+        font-size: 1rem;
+        text-transform:inherit;
+        
+    }
+}
+.MuiMenuItem-gutters{
+    color: #ffffff;
+    padding: 0 30px;
+    a{
+        color: #999999;
+        text-decoration: none;
+    }
+}
