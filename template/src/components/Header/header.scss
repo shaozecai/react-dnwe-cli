@@ -24,6 +24,12 @@
             color: #ffffff;
             text-decoration: none;
         }
+        &.selected{
+            background: #000000;
+            a{
+                color: #999999
+            }
+        }
     }
     .MuiButton-root{
         color: #ffffff;

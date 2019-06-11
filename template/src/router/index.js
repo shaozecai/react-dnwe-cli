@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 import Home from '../components/Home';
 import About from '../components/About';
 import Detail from '../components/Detail';
-
+import More from '../components/More';
 
 
 function Body(){
@@ -19,6 +19,7 @@ function Body(){
                         <Route exact path="/" component={Home}/>
                         <Route exact path="/detail" component={Detail}/>
                         <Route exact path="/about" component={About}/>
+                        <Route exact path="/more" component={More}/>
                     </Switch>
                 </HashRouter>
             </div>

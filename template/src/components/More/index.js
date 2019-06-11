@@ -1,7 +1,7 @@
 import React from 'react';
-import store from '../../store';
+import store from '../../store'
 
-class Home extends React.Component {
+class More extends React.Component {
     constructor(props){
         super(props);
         this.state = store.getState();
@@ -16,13 +16,13 @@ class Home extends React.Component {
         //改变菜单选择项全局配置参数
         const menuIndex = {
             type: 'change_menu_index',
-            value: 0
+            value: 3
         }
         store.dispatch(menuIndex); // 解析action
         //改变页面标题全局配置参数
         const pageTitle = {
             type: 'change_page_title',
-            value: '首页 —— PC端初始化工程'
+            value: '更多内容 —— PC端初始化工程'
         }
         store.dispatch(pageTitle); // 解析action
         
@@ -45,5 +45,4 @@ class Home extends React.Component {
         )
     }
 }
-
-export default Home
+export default More
