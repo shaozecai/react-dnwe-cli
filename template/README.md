@@ -19,7 +19,7 @@ npm run dev
 - [Material-UI](https://material-ui.com/zh/) - React 组件用于更快速、更简便的 web 开发。
 
 ## Author
-- Email - admin@shaozeci.com
+- Email - shaozecai@shaozecai.com
 - Web site - https://shaozecai.com
 
 ## Version
